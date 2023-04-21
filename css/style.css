@@ -147,10 +147,9 @@ body {
     display: flex;
   }
   .auth-nav-item:not(:last-child) {
-  margin-right: 40px;
+    margin-right: 40px;
+  }
 }
-}
-
 
 .auth-nav .link {
   padding-top: 24px;
@@ -909,11 +908,6 @@ body {
     text-align: left;
   }
 }
-
-/* .footer-subscribe {
-  /* display: flex;
-  gap: 24px; */
-} */
 
 .input-subscribe {
   display: block;
