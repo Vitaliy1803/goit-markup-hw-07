@@ -797,20 +797,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 72px 16px;
-
-  @media screen and (min-width: 1200px) {
-    flex-wrap: nowrap;
-    gap: 24px;
-  }
 }
 
-@media screen and (min-width: 768px) {
-  .customers {
-    width: 552px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+
 
 .customers-list-item {
   display: flex;
@@ -839,6 +828,23 @@ body {
 .customers-link:focus {
   border-color: #404bbf;
   fill: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .customers {
+    width: 552px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .customers {
+  flex-wrap: nowrap;
+  gap: 24px;
+  width: 100%;
+  }
+  
 }
 
 /* footer */
