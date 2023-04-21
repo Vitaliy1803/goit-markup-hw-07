@@ -142,9 +142,15 @@ body {
   margin-left: auto;
 }
 
-/* .auth-nav-item:not(:last-child) {
+@media screen and (min-width: 1200px) {
+  .auth-nav-list {
+    display: flex;
+  }
+  .auth-nav-item:not(:last-child) {
   margin-right: 40px;
-} */
+}
+}
+
 
 .auth-nav .link {
   padding-top: 24px;
@@ -933,6 +939,7 @@ body {
 @media screen and (min-width: 768px) {
   .input-subscribe {
     width: 264px;
+    margin-top: 16px;
   }
 }
 
