@@ -62,6 +62,7 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .header-nav {
